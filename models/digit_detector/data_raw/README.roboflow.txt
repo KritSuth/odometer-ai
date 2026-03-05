@@ -1,8 +1,8 @@
 
-Odometer Digit - v1 2026-01-29 12:32pm
+Digit Finetune - v1 2026-03-05 4:51pm
 ==============================
 
-This dataset was exported via roboflow.com on January 29, 2026 at 5:36 AM GMT
+This dataset was exported via roboflow.com on March 5, 2026 at 9:52 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,16 +17,11 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 3978 images.
-Odometer are annotated in YOLOv11 format.
+The dataset includes 2457 images.
+Odometer-W5nY-c29b are annotated in YOLOv11 format.
 
 The following pre-processing was applied to each image:
-* Auto-orientation of pixel data (with EXIF-orientation stripping)
-* Resize to 1280x1280 (Stretch)
-* Auto-contrast via adaptive equalization
 
-The following augmentation was applied to create 2 versions of each source image:
-* Random brigthness adjustment of between -7 and +7 percent
-* Salt and pepper noise was applied to 0.5 percent of pixels
+No image augmentation techniques were applied.
 
 

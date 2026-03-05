@@ -7,7 +7,7 @@ names: ['-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'X', 'odometer']
 
 roboflow:
   workspace: object-detect-y6xwx
-  project: odometer-digit
+  project: digit-finetune
   version: 1
   license: MIT
-  url: https://universe.roboflow.com/object-detect-y6xwx/odometer-digit/dataset/1
+  url: https://universe.roboflow.com/object-detect-y6xwx/digit-finetune/dataset/1

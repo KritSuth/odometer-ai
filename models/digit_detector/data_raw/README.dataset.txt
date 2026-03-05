@@ -1,5 +1,5 @@
-# Odometer Digit > 2026-01-29 12:32pm
-https://universe.roboflow.com/object-detect-y6xwx/odometer-digit
+# Digit Finetune > 2026-03-05 4:51pm
+https://universe.roboflow.com/object-detect-y6xwx/digit-finetune
 
 Provided by a Roboflow user
 License: MIT

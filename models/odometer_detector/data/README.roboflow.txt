@@ -1,8 +1,8 @@
 
-Odometer Crop - v1 2026-01-28 4:07pm
+Odometer Finetune - v3 2026-03-05 5:01pm
 ==============================
 
-This dataset was exported via roboflow.com on January 28, 2026 at 9:52 AM GMT
+This dataset was exported via roboflow.com on March 5, 2026 at 10:02 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,17 +17,11 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 1100 images.
-Odometer are annotated in YOLOv11 format.
+The dataset includes 2377 images.
+Odometer-W5nY are annotated in YOLOv11 format.
 
 The following pre-processing was applied to each image:
-* Auto-orientation of pixel data (with EXIF-orientation stripping)
-* Resize to 640x640 (Stretch)
 
-The following augmentation was applied to create 2 versions of each source image:
-* Random rotation of between -7 and +7 degrees
-* Random brigthness adjustment of between -20 and +20 percent
-* Random Gaussian blur of between 0 and 1 pixels
-* Salt and pepper noise was applied to 0.5 percent of pixels
+No image augmentation techniques were applied.
 
 
