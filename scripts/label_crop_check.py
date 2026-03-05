@@ -1,8 +1,8 @@
 import cv2
 import os
 
-IMG_DIR = "models/digit_detector/data_cropped/train/images"
-LBL_DIR = "models/digit_detector/data_cropped/train/labels"
+IMG_DIR = "../models/digit_detector/data_cropped/train/images"
+LBL_DIR = "../models/digit_detector/data_cropped/train/labels"
 
 def draw_yolo(img, label):
     h, w = img.shape[:2]
