@@ -5,13 +5,14 @@ def main():
 
     model.train(
         data="data_cropped/data.yaml",
-        epochs=60,
-        imgsz=640,
+        epochs=30,
+        imgsz=768,
         batch=16,
         device=0,
         workers=8,      # ใช้หลาย worker ได้แล้ว
-        patience=20,
-        lr0 = 0.0005
+        patience=10,
+        cache=True,
+        # lr0 = 0.0005
     )
 
 if __name__ == "__main__":
