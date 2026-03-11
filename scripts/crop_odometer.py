@@ -2,12 +2,12 @@ import cv2
 import os
 
 # ===== INPUT (จาก Roboflow) =====
-SRC_IMG_DIR = "../models/digit_detector/data_raw/valid/images"
-SRC_LBL_DIR = "../models/digit_detector/data_raw/valid/labels"
+SRC_IMG_DIR = "../models/digit_detector/data_raw/train/images"
+SRC_LBL_DIR = "../models/digit_detector/data_raw/train/labels"
 
 # ===== OUTPUT (หลัง crop เอาไป train) =====
-DST_IMG_DIR = "../models/digit_detector/data_cropped/valid/images"
-DST_LBL_DIR = "../models/digit_detector/data_cropped/valid/labels"
+DST_IMG_DIR = "../models/digit_detector/data_cropped/train/images"
+DST_LBL_DIR = "../models/digit_detector/data_cropped/train/labels"
 
 ODOMETER_CLASS_ID = 12
 
